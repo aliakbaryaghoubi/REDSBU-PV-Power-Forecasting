@@ -5,14 +5,18 @@ This project focuses on forecasting photovoltaic (PV) power generation using var
 # Dataset
 The dataset used in this project contains the following columns:
 
-<b>datetime:</b>  Timestamp of the measurement.
+<b>Datetime:</b>  Timestamp of the measurement.
 
-<b>irradiation:</b> Solar irradiation at a given time.
+<b>IntSolIrr (W/m^2):</b> Solar irradiation at a given time.
 
-<b>wind_velocity:</b> Wind velocity near the PV panels.
+<b>WindVel m/s (m/s):</b> Wind velocity near the PV panels.
 
-<b>ambient_temperature:</b> Temperature in the surroundings of the PV system.
+<b>TmpAmb C (°C):</b> Temperature in the surroundings of the PV system.
 
-<b>module_temperature:</b> Temperature of the PV modules.
+<b>TmpMdul C (°C):</b> Temperature of the PV modules.
 
-<b>pv_power:</b> The actual PV power generation at the given time (target variable).
+<b>A.Ms.Amp (A):</b> The output PV Current at the given time.
+
+<b>A.Ms.Vol (V):</b> The output PV Voltage at the given time.
+
+<b>A.Ms.Watt (W):</b> The actual PV power generation at the given time (target variable).
