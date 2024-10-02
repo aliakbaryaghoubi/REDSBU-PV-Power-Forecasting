@@ -5,7 +5,7 @@ This project focuses on forecasting photovoltaic (PV) power generation using var
 # Dataset
 The dataset used in this project contains the following columns:
 
-<b "style=font-size:200px;">datetime:</b>  Timestamp of the measurement.
+<b "style=font-size:200px">datetime:</b>  Timestamp of the measurement.
 
 <b>irradiation:</b> Solar irradiation at a given time.
 
