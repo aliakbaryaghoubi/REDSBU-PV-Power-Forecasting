@@ -5,7 +5,7 @@ This project focuses on forecasting photovoltaic (PV) power generation using var
 Dataset
 The dataset used in this project contains the following columns:
 
-datetime: Timestamp of the measurement.\n
+datetime: Timestamp of the measurement.\\
 irradiation: Solar irradiation at a given time.
 wind_velocity: Wind velocity near the PV panels.
 ambient_temperature: Temperature in the surroundings of the PV system.
